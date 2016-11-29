@@ -13,13 +13,3 @@
 //Sifr::disable(); // must come before LOAD
 //Sifr::load_sifr();
 //===================---------------- END sifr MODULE ----------------===================
-
-
-
-
-
-
-
-
-
-
