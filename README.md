@@ -1,62 +1,72 @@
-sIFR
-================================================================================
+# Silverstripe sifr module
+[![Build Status](https://travis-ci.org/sunnysideup/silverstripe-sifr.svg?branch=master)](https://travis-ci.org/sunnysideup/silverstripe-sifr)
+[![Scrutinizer Code Quality](https://scrutinizer-ci.com/g/sunnysideup/silverstripe-sifr/badges/quality-score.png?b=master)](https://scrutinizer-ci.com/g/sunnysideup/silverstripe-sifr/?branch=master)
+[![codecov.io](https://codecov.io/github/sunnysideup/silverstripe-sifr/coverage.svg?branch=master)](https://codecov.io/github/sunnysideup/silverstripe-sifr?branch=master)
+![helpfulrobot](https://helpfulrobot.io/sunnysideup/sifr/badge)
 
-Developer
------------------------------------------------
-Nicolaas Francken [at] sunnysideup.co.nz
-
-Requirements
------------------------------------------------
-see composer.json
-
-Documentation
------------------------------------------------
+[![Latest Stable Version](https://poser.pugx.org/sunnysideup/sifr/version)](https://packagist.org/packages/sunnysideup/sifr)
+[![License](https://poser.pugx.org/sunnysideup/sifr/license)](https://packagist.org/packages/sunnysideup/sifr)
+[![Monthly Downloads](https://poser.pugx.org/sunnysideup/sifr/d/monthly)](https://packagist.org/packages/sunnysideup/sifr)
 
 
-To customise this module - do the following:
-
-**** Making Fonts ****
-go to the source code and create your own flash file
-OR, when make one online (easier!)
-Save font in mysite/fonts/myfont.swf
---- http://www.sifrgenerator.com/
------ choose the latest version of sifr when asked
------ (see FUTURE PROOFING below).
---- http://www.coffeecup.com/sifr-font-maker/ - not as good)
-
-*** JS CONFIG ****
-go to mysite/javascript/sifr-config.js and change the path of the font
---- also see http://wiki.novemberborn.net/sifr3/JavaScript+Configuration
---- also see http://wiki.novemberborn.net/sifr3/JavaScript+Methods
-
-*** STYLING
-scroll down to bottom of mysite/javascript/sifr-config.js file and adjust styles
-create a themed css file: themes/mytheme/css/sifr-themed.css and edit it
---- also see http://wiki.novemberborn.net/sifr3/Styling
-
-**** FUTURE PROOF ****
-we can get the lastest version here (for the future):
---- also see http://dev.novemberborn.net/sifr3/nightlies/
+## Documentation
 
 
-Installation Instructions
------------------------------------------------
-1. Find out how to add modules to SS and add module as per usual.
 
-2. Review configs and add entries to mysite/_config/config.yml
-(or similar) as necessary.
-In the _config/ folder of this module
-you can usually find some examples of config options (if any).
+ * [Developer Docs](docs/en/INDEX.md)
+ * [User Guide](docs/en/userguide.md)
+ * [API](http://ssmods.com/apis/sifr/docs/en/api/)
 
-3. go to css folder and copy css file to be themed (make a copy and place in theme folder)
-
-4. go to javascript folder and copy file to be made
-
-5. specify location of javascript files
+## Requirements
 
 
-Thank you
------------------------------------------------
-This module is heavily based on the original
-SS sifr module.
 
+see [composer.json](composer.json) for details
+
+### Suggested Modules
+
+
+
+see [composer.json](composer.json) for details
+
+
+## Installation
+
+
+```
+composer require sunnysideup/sifr
+```
+
+### Configuration
+
+
+
+In the `_config` folder you will find the `sifr.yml.example`
+file that shows options for the configuration of this module.
+
+We recommend that you:
+
+  1. copy these `sifr.yml.example` files into your
+`mysite/_config` folder
+  2. remove the .example extension
+  3. delete the lines you not care about, and
+  4. adjust the configurations that you would like to use.
+
+
+## Contributing
+
+
+
+We welcome any contributions. See [CONTRIBUTING.md](CONTRIBUTING.md) for more details.
+
+## Paid assistance
+
+
+
+You can pay us to create an improved / adapted version of this module for your own projects.  Please contact us if you like to find out more: [www.sunnysideup.co.nz](http://www.sunnysideup.co.nz)
+
+## Author
+
+
+
+Sunny Side Up Ltd.
