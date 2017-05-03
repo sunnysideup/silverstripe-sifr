@@ -1,9 +1,0 @@
-<?xml version="1.0" encoding="utf-8"?>
-<source xmlns="http://xml.phpdox.net/src">
-  <dir name="/var/www/_modules/sifr/trunk">
-    <file name="_config.php" size="610" time="2015-03-14T10:23:19+13:00" unixtime="1426281799" sha1="dcb10684fa601dc6e6e9678a8ab192410413327d" xml="tokens/_config.php.xml"/>
-    <dir name="code">
-      <file name="Sifr.php" size="1475" time="2015-03-14T10:23:19+13:00" unixtime="1426281799" sha1="d669f620189ca30c2c8970151b03f352306f6c1a" xml="tokens/code/Sifr.php.xml"/>
-    </dir>
-  </dir>
-</source>
